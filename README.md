@@ -132,11 +132,3 @@ jupyter lab
 ```
 
 Open `notebooks/01_multivariate.ipynb` and run all cells. The data are downloaded from Yahoo Finance and FRED on the first run and saved in `data/raw/`; the out-of-sample estimation (about 6 minutes) is saved in `data/processed/` and reloaded afterwards.
-
-## Series
-
-1. Stylized facts of equity returns
-2. Volatility forecasting: EWMA vs GARCH
-3. VaR and Expected Shortfall engine with full backtesting
-4. **Multivariate volatility: rolling, EWMA, CCC and DCC** – this project
-5. Bond portfolio risk – next
