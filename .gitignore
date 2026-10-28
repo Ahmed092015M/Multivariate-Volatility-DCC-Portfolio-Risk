@@ -1,0 +1,10 @@
+# Market data and computed forecasts are produced by the code
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
