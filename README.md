@@ -130,5 +130,3 @@ pip install -r requirements.txt
 pytest -v
 jupyter lab
 ```
-
-Open `notebooks/01_multivariate.ipynb` and run all cells. The data are downloaded from Yahoo Finance and FRED on the first run and saved in `data/raw/`; the out-of-sample estimation (about 6 minutes) is saved in `data/processed/` and reloaded afterwards.
